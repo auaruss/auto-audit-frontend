@@ -16,7 +16,8 @@ See Issue: [ISSUE_NUMBER](https://sparkbox.atlassian.net/browse/FSA21V2-ISSUE_NU
 
 1. Make sure all PR Checks have passed.
 1. Pull down all related branches.
-1. Navigate to... _[continue instructions here]_
+1. Run `npm run lint` and `npm test`. Make sure those pass.
+1. Run `npm run dev` to do manual testing on your `localhost`.
 
 ### Browser Testing
 <!-- Delete if irrelevant to this issue -->
