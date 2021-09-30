@@ -5,9 +5,146 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auto audit</title>
-  <link rel="stylesheet" href="normalize.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-  <h1>hello, world</h1>
+  <header>
+    <div class="header">
+      <h1>Auto audit dashboard</h1>
+      <svg viewBox="0 0 100 80" width="40" height="40" class="nav-opener">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+      </svg>
+    </div>
+    <nav class="site-audits">
+      <!-- should probably make these buttons  -->
+      <div class="site-audits__title">
+        sparkbox.com/hello-world
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+      <div class="site-audits__title">
+        sparkbox.com
+      </div>
+    </nav>
+  </header>
+  <main class="content-pane">
+    <table class="audit-table">
+      <caption class="audit-table__caption">Summary of the Google Lighthouse attributes of sparkbox.com</caption>
+      <thead class="audit-table__header">
+        <tr>
+          <th>URL</th>
+          <th>Performance</th>
+          <th>Accessibility</th>
+          <th>Best practices</th>
+          <th>SEO</th>
+        </tr>
+      </thead>
+      <tbody class="audit-table__body">
+        <tr class="audit-table__row">
+          <th class="audit-table__row-header">https://sparkbox.com/work</th>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Performance: </span>57</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Accessibility: </span>100</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Best Practices: </span>93</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">SEO: </span>100</td>
+        </tr>
+        <tr class="audit-table__row">
+          <th>https://sparkbox.com/</th>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Performance: </span>65</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Accessibility: </span>100</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Best Practices: </span>93</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">SEO: </span>100</td>
+        </tr>
+        <tr class="audit-table__row">
+          <th>https://sparkbox.com/team</th>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Performance: </span>66</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Accessibility: </span>100</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Best Practices: </span>93</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">SEO: </span>100</td>
+        </tr>
+        <tr class="audit-table__row">
+          <th>https://sparkbox.com/contact</th>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Performance: </span>66</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Accessibility: </span>100</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Best Practices: </span>93</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">SEO: </span>100</td>
+        </tr>
+        <tr class="audit-table__row">
+          <th>https://sparkbox.com/work/dpl</th>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Performance: </span>67</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Accessibility: </span>100</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">Best Practices: </span>93</td>
+          <td class="audit-table__row-data"><span class="mobile-table-marker">SEO: </span>100</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
 </body>
+
+<script src="./scripts.js"></script>
 </html>
